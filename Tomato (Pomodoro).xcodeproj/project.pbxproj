@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE151B772BE246C800E4B774 /* ting.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE151B752BE246C800E4B774 /* ting.wav */; };
 		EED2B2762BDFEB9F00760BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2B2752BDFEB9F00760BA8 /* AppDelegate.swift */; };
-		EED2B2782BDFEB9F00760BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2B2772BDFEB9F00760BA8 /* SceneDelegate.swift */; };
-		EED2B27A2BDFEB9F00760BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2B2792BDFEB9F00760BA8 /* ViewController.swift */; };
-		EED2B27D2BDFEB9F00760BA8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EED2B27C2BDFEB9F00760BA8 /* Base */; };
 		EED2B27F2BDFEBA100760BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED2B27E2BDFEBA100760BA8 /* Assets.xcassets */; };
 		EED2B2822BDFEBA100760BA8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EED2B2812BDFEBA100760BA8 /* Base */; };
+		EED2B28E2BE00C7400760BA8 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2B28D2BE00C7300760BA8 /* SettingVC.swift */; };
+		EEDD5E1D2BE0AF56004485DF /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD5E1C2BE0AF56004485DF /* FinishVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE151B752BE246C800E4B774 /* ting.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ting.wav; sourceTree = "<group>"; };
 		EED2B2722BDFEB9F00760BA8 /* Tomato (Pomodoro).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tomato (Pomodoro).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED2B2752BDFEB9F00760BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EED2B2772BDFEB9F00760BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EED2B2792BDFEB9F00760BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EED2B27C2BDFEB9F00760BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EED2B27E2BDFEBA100760BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED2B2812BDFEBA100760BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED2B2832BDFEBA100760BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED2B28D2BE00C7300760BA8 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		EEDD5E1C2BE0AF56004485DF /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +37,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE151B762BE246C800E4B774 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				EE151B752BE246C800E4B774 /* ting.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		EE151B782BE2502A00E4B774 /* ProektFile */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B2752BDFEB9F00760BA8 /* AppDelegate.swift */,
+				EED2B27E2BDFEBA100760BA8 /* Assets.xcassets */,
+				EED2B2802BDFEBA100760BA8 /* LaunchScreen.storyboard */,
+				EED2B2832BDFEBA100760BA8 /* Info.plist */,
+			);
+			name = ProektFile;
+			sourceTree = "<group>";
+		};
+		EE151B792BE2505600E4B774 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EED2B28D2BE00C7300760BA8 /* SettingVC.swift */,
+				EEDD5E1C2BE0AF56004485DF /* FinishVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		EED2B2692BDFEB9F00760BA8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +84,9 @@
 		EED2B2742BDFEB9F00760BA8 /* Tomato (Pomodoro) */ = {
 			isa = PBXGroup;
 			children = (
-				EED2B2752BDFEB9F00760BA8 /* AppDelegate.swift */,
-				EED2B2772BDFEB9F00760BA8 /* SceneDelegate.swift */,
-				EED2B2792BDFEB9F00760BA8 /* ViewController.swift */,
-				EED2B27B2BDFEB9F00760BA8 /* Main.storyboard */,
-				EED2B27E2BDFEBA100760BA8 /* Assets.xcassets */,
-				EED2B2802BDFEBA100760BA8 /* LaunchScreen.storyboard */,
-				EED2B2832BDFEBA100760BA8 /* Info.plist */,
+				EE151B782BE2502A00E4B774 /* ProektFile */,
+				EE151B762BE246C800E4B774 /* sound */,
+				EE151B792BE2505600E4B774 /* ViewControllers */,
 			);
 			path = "Tomato (Pomodoro)";
 			sourceTree = "<group>";
@@ -127,7 +151,7 @@
 			files = (
 				EED2B27F2BDFEBA100760BA8 /* Assets.xcassets in Resources */,
 				EED2B2822BDFEBA100760BA8 /* Base in Resources */,
-				EED2B27D2BDFEB9F00760BA8 /* Base in Resources */,
+				EE151B772BE246C800E4B774 /* ting.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED2B27A2BDFEB9F00760BA8 /* ViewController.swift in Sources */,
 				EED2B2762BDFEB9F00760BA8 /* AppDelegate.swift in Sources */,
-				EED2B2782BDFEB9F00760BA8 /* SceneDelegate.swift in Sources */,
+				EED2B28E2BE00C7400760BA8 /* SettingVC.swift in Sources */,
+				EEDD5E1D2BE0AF56004485DF /* FinishVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EED2B27B2BDFEB9F00760BA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EED2B27C2BDFEB9F00760BA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EED2B2802BDFEBA100760BA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +313,10 @@
 				INFOPLIST_FILE = "Tomato (Pomodoro)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +342,10 @@
 				INFOPLIST_FILE = "Tomato (Pomodoro)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
